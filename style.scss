@@ -1,0 +1,110 @@
+// Reset default margin and padding
+html, body, h1, h2, p, ul, li, button, input, select, option, table, th, td {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Set body font and background color
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+// Header styles
+.head {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// Button styles
+.btnAdd {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+// Search input styles
+.search {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+// Select dropdown styles
+.select {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+// Dialog styles
+dialog {
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 300px;
+}
+
+// Table styles
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    
+    th, td {
+        padding: 10px;
+        border: 1px solid #ced4da;
+    }
+    
+    th {
+        background-color: #343a40;
+        color: #ffffff;
+    }
+}
+
+// Info dialog styles
+.diainfo {
+    width: 200px;
+    
+    // Button inside dialog styles
+    .btnCloseIn {
+        background-color: #dc3545;
+        color: #ffffff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    
+    // Info dialog paragraph styles
+    p {
+        margin: 5px 0;
+    }
+}
+
+// Edit modal styles
+.editModal {
+    width: 300px;
+}
+
+body {
+    background-color: #102042;
+    
+}
+
+table {
+    background-color: rgb(173, 195, 255);
+}

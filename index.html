@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<header class="head">
+    <h1>Table</h1>
+    <button class="btnAdd">6+</button>
+</header>
+<input class="search" placeholder="search..." type="search">
+
+
+<select name="" id="select" class="select">
+    <option value="all">all</option>
+    <option value="online">Paid</option>
+    <option value="">Unpaid</option>
+</select>
+
+<dialog class="diaAdd">
+    <h2>Add</h2>
+    <form action="" class="formAd">
+       <input name="Costomer" placeholder="Costomer..." type="text">
+       <input  name="date" type="date">
+       <select name="selforAd" id="">
+        <optgroup label="choose Payment">
+        <option value="cash">cash</option>
+        <option value="card">card</option>  
+        <option value="checku">Checku</option>
+    </optgroup>
+       </select>
+       <input name="total" type="number">
+       <select name="selstatAd" id="">
+        <optgroup label="choose status">
+        <option value="paid">paid</option>
+        <option value="unpaid">unpaid</option>
+        </optgroup>
+       </select>
+        <button type="submit">Add</button>
+    </form>
+    <button class="btnClose">X</button>
+    
+</dialog>
+
+<dialog class="editModal">
+    <h2>Edit</h2>
+    <form action="" class="formEdit">
+       <input name="Costomer" placeholder="Costomer..." type="text">
+       <input  name="date" type="date">
+       <select name="selfor" id="">
+        <optgroup label="choose Payment">
+        <option value="cash">cash</option>
+        <option value="card">card</option>  
+        <option value="checku">Checku</option>
+    </optgroup>
+       </select>
+       <input name="total" type="number">
+       <select name="selstatE" id="">
+        <optgroup label="choose status">
+        <option value="paid">paid</option>
+        <option value="unpaid">unpaid</option>
+        </optgroup>
+       </select>
+        <button type="submit">Edit</button>
+    </form>
+</dialog>
+
+<dialog class="diainfo">
+    <h2>Info</h2>
+    
+        <p class="nameInfo">Costomer</p>
+        <p class="datein">Date</p>
+        <p class="payIn">Payment</p>
+        <p class="totalIn">Total</p>
+        <p class="Status">Status</p>
+   
+    <button class="btnCloseIn">X</button>
+</dialog>
+
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Costomer</th>
+            <th>Order date</th>
+            <th>Payment Metod</th>
+            <th>Total Amount</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody class="tbody"></tbody>
+   
+</table>
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

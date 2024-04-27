@@ -1,0 +1,94 @@
+html, body, h1, h2, p, ul, li, button, input, select, option, table, th, td {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.head {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btnAdd {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.search {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.select {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+dialog {
+  padding: 20px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 300px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ced4da;
+}
+table th {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.diainfo {
+  width: 200px;
+}
+.diainfo .btnCloseIn {
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.diainfo p {
+  margin: 5px 0;
+}
+
+.editModal {
+  width: 300px;
+}
+
+body {
+  background-color: #102042;
+}
+
+table {
+  background-color: rgb(173, 195, 255);
+}
+/*# sourceMappingURL=style.css.map */
