@@ -38,7 +38,16 @@ body {
     padding: 10px;
     border: 1px solid #ced4da;
     border-radius: 5px;
+  
+    font-size: 16px;
+    background-color: #ffffff;
+
+    &:hover,
+    &:focus {
+        border-color: #007bff;
+    }
 }
+
 
 // Select dropdown styles
 .select {
@@ -108,3 +117,162 @@ body {
 table {
     background-color: rgb(173, 195, 255);
 }
+
+
+
+.diaAdd {
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 300px;
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .formAd {
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        select {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 16px;
+        }
+
+        select {
+            background-color: #ffffff; // Set background color for select dropdown
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+        }
+    }
+
+    .btnClose {
+        background-color: #dc3545;
+        color: #ffffff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        font-size: 16px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+
+//// Dialog Edit
+
+
+
+// Styles for dialog
+.editModal {
+    padding: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 300px;
+
+    h2 {
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .formEdit {
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        select {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 5px;
+            width: 100%;
+            font-size: 16px;
+
+            &:focus,
+            &:hover {
+                border-color: #007bff;
+            }
+        }
+
+        select {
+            background-color: #ffffff;
+        }
+
+        button[type="submit"] {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+
+            &:hover {
+                background-color: #0056b3;
+            }
+        }
+    }
+
+    .btnCloseE {
+        background-color: #dc3545;
+        color: #ffffff;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+        border-radius: 50%;
+        font-size: 16px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+
+        &:hover {
+            background-color: #c82333;
+        }
+    }
+}
+
+
+
+/// Style for select
+
+.select {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    width: 10%;
+    font-size: 16px;
+    background-color: #ffffff;
+    cursor: pointer;
+
+    &:hover {
+        border-color: #007bff;
+    }
+
+    option {
+        padding: 10px;
+        &:hover {
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+    }
+}
+

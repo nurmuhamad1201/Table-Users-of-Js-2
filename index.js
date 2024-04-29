@@ -189,6 +189,11 @@ function getData(data) {
 /// All for Edit
 let editModal = document.querySelector(".editModal")
 let formEdit = document.querySelector(".formEdit")
+let btnCloseE = document.querySelector(".btnCloseE")
+
+btnCloseE.onclick = () => {
+editModal.close()
+}
 
 function showModal(e) {
     editModal.showModal()
